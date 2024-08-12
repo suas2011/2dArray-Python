@@ -1,0 +1,7 @@
+#2D Arrays
+mixedfruit=[['Guava','price:140RS/kg','Banana','120RS/Dozen'],['Water Melon','50RS/kg'],['Melons','30RS/kg']]
+
+for i in mixedfruit:
+    for j in i:
+        print(i,end="\n")
+    print('\n')
